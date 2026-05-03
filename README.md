@@ -2,6 +2,9 @@
 
 Portafolio personal tipo hoja de vida construido con Next.js, React, TypeScript, TailwindCSS e íconos de `lucide-react`.
 
+## Link del proyecto desplegado
+https://laura-correa-ochoa.vercel.app/
+
 ## Estructura principal
 
 - `src/app`: rutas, layout global y página principal de Next.js.
