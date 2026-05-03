@@ -13,7 +13,7 @@ export function MainContent() {
       <section className="px-5 py-14 md:px-0">
         <SectionHeader
           title="Mis conocimientos"
-          description="Áreas que puedes ajustar según tu experiencia. Cada card usa un ícono, título y descripción reutilizable."
+          description="Tecnologias y areas en las que he construido experiencia: desarrollo web, inteligencia artificial, datos, arquitectura y soluciones escalables."
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {resume.knowledge.map((item) => (
@@ -24,8 +24,8 @@ export function MainContent() {
 
       <section className="px-5 py-10 md:px-0">
         <SectionHeader
-          title="Educación"
-          description="Historia académica organizada en cards, con institución, fechas, título y descripción."
+          title="Educacion"
+          description="Formacion academica y tecnica que ha fortalecido mis bases en ingenieria, programacion, desarrollo web y pensamiento logico."
         />
         <div className="mt-10 rounded-md bg-white px-7 shadow-sm md:px-10">
           {resume.education.map((item) => (
@@ -37,10 +37,9 @@ export function MainContent() {
       <section className="px-5 py-14 md:px-0">
         <SectionHeader
           title="Portafolio"
-          description="Proyectos destacados en un carril horizontal. Cada botón abre un diálogo con más información."
+          description="Una seleccion de proyectos donde aplico desarrollo full stack, automatizacion, analisis de datos, NLP y agentes de inteligencia artificial."
         />
-        {/* Horizontal project rail required by the assignment. snap-x keeps cards aligned while scrolling. */}
-        <div className="mt-10 flex gap-7 overflow-x-auto pb-5 snap-x">
+        <div className="mt-10 flex snap-x gap-7 overflow-x-auto pb-5">
           {resume.projects.map((project) => (
             <div key={project.title} className="snap-start">
               <ProjectCard {...project} />
