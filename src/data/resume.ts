@@ -51,14 +51,14 @@ export type Project = {
 export const resume = {
   person: {
     name: "Laura Correa Ochoa",
-    title: "Estudiante de Ingeniería de Sistemas y desarrolladora de software",
+    title: "Estudiante de Ingeniería de Sistemas y desarrolladora de software con 3 años de experiencia",
     highlight: "Full Stack Developer",
     profileImage: "/images/FotoCV.jpg",
     heroImage: "/images/Foto.jpg",
     shortProfile:
-      "Desarrolladora full stack con experiencia en frontend, backend, microservicios, asistentes digitales, NLP y soluciones basadas en LLMs.",
+      "Desarrolladora full stack con 3 años de experiencia trabajando en frontend, backend, microservicios, asistentes digitales, NLP y soluciones basadas en LLMs.",
     about:
-      "Estudiante de Ingeniería de Sistemas en la Universidad de Antioquia y desarrolladora de software. He trabajado en desarrollo frontend y backend, procesamiento de lenguaje natural, asistentes digitales, arquitecturas RAG y soluciones de inteligencia artificial aplicadas a automatización y bots conversacionales.",
+      "Estudiante de Ingeniería de Sistemas en la Universidad de Antioquia y desarrolladora de software con 3 años de experiencia trabajando. He trabajado en desarrollo frontend y backend, procesamiento de lenguaje natural, asistentes digitales, arquitecturas RAG y soluciones de inteligencia artificial aplicadas a automatización y bots conversacionales.",
   },
   contact: [
     { label: "Ciudad", value: "Medellín, Colombia", icon: MapPin },
